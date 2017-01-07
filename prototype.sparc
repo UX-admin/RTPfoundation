@@ -1,0 +1,59 @@
+#
+# CDDL HEADER START
+#
+# The  contents of this file are subject to the terms of the Common
+# Development and  Distribution  License,  Version  1.0  only  (the
+# "License").  You  may not use this file except in compliance with
+# the License.
+#
+# A  copy  of  the  Common  Development and Distribution License is
+# available at:
+#
+# https://github.com/UX-admin/rpmmacros/blob/master/LICENSE
+#
+# see the License for the specific language  governing  permissions
+# and limitations under the License.
+#
+# When  distributing Covered Code, include this CDDL header in each
+# file, and include the "LICENSE" file.
+#
+# If applicable, add the following below this CDDL header, with the
+# fields   enclosed   by  brackets  "[]"  replaced  with  your  own
+# identifying  information:  Portions  Copyright  [yyyy]  [name  of
+# copyright owner]
+#
+# CDDL HEADER END
+#
+i pkginfo=pkginfo.sparc
+!include prototype.common
+d none $RTP_BASE/bin/sparc 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv7 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv8 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv8-fsmuld 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv8plus 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv8plus+vis 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv8plus+vis2 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv9 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv9+vis 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/sparcv9+vis2 0755 $RTP_LOGIN $RTP_GROUP
+f none $RTP_BASE/lib/isaexec=sparc/opt/rtp/lib/isaexec 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparc 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv7 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv8 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv8-fsmuld 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv8plus 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv8plus+vis 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv8plus+vis2 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv9 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv9+vis 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/sparcv9+vis2 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparc 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv7 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv8 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv8-fsmuld 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv8plus 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv8plus+vis 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv8plus+vis2 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv9 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv9+vis 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/sparcv9+vis2 0755 $RTP_LOGIN $RTP_GROUP

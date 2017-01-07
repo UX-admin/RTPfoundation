@@ -1,0 +1,53 @@
+#
+# CDDL HEADER START
+#
+# The  contents of this file are subject to the terms of the Common
+# Development and  Distribution  License,  Version  1.0  only  (the
+# "License").  You  may not use this file except in compliance with
+# the License.
+#
+# A  copy  of  the  Common  Development and Distribution License is
+# available at:
+#
+# https://github.com/UX-admin/rpmmacros/blob/master/LICENSE
+#
+# see the License for the specific language  governing  permissions
+# and limitations under the License.
+#
+# When  distributing Covered Code, include this CDDL header in each
+# file, and include the "LICENSE" file.
+#
+# If applicable, add the following below this CDDL header, with the
+# fields   enclosed   by  brackets  "[]"  replaced  with  your  own
+# identifying  information:  Portions  Copyright  [yyyy]  [name  of
+# copyright owner]
+#
+# CDDL HEADER END
+#
+i pkginfo=pkginfo.i386
+!include prototype.common
+d none $RTP_BASE/bin/amd64 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/i386 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/i486 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/i86 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/pentium 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/pentium+mmx 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/pentium_pro 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/bin/pentium_pro+mmx 0755 $RTP_LOGIN $RTP_GROUP
+f none $RTP_BASE/lib/isaexec=i386/opt/rtp/lib/isaexec 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/amd64 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/i386 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/i486 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/i86 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/pentium 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/pentium+mmx 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/pentium_pro 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/lib/pentium_pro+mmx 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/amd64 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/i386 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/i486 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/i86 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/pentium 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/pentium+mmx 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/pentium_pro 0755 $RTP_LOGIN $RTP_GROUP
+d none $RTP_BASE/sbin/pentium_pro+mmx 0755 $RTP_LOGIN $RTP_GROUP

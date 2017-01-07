@@ -1,0 +1,38 @@
+#
+# CDDL HEADER START
+#
+# The  contents of this file are subject to the terms of the Common
+# Development and  Distribution  License,  Version  1.0  only  (the
+# "License").  You  may not use this file except in compliance with
+# the License.
+#
+# A  copy  of  the  Common  Development and Distribution License is
+# available at:
+#
+# https://github.com/UX-admin/rpmmacros/blob/master/LICENSE
+#
+# see the License for the specific language  governing  permissions
+# and limitations under the License.
+#
+# When  distributing Covered Code, include this CDDL header in each
+# file, and include the "LICENSE" file.
+#
+# If applicable, add the following below this CDDL header, with the
+# fields   enclosed   by  brackets  "[]"  replaced  with  your  own
+# identifying  information:  Portions  Copyright  [yyyy]  [name  of
+# copyright owner]
+#
+# CDDL HEADER END
+#
+PKG=RTPfoundation
+NAME=RENIX file system anchors
+DESC=opt/rtp, etc/opt/rtp and var/opt/rtp file system anchors and underlying structure and file(s) (such as bin, sbin, share/man, lib, the admin file, et cetera).
+VERSION=2017.01.07.01
+CATEGORY=system
+ARCH=i386
+BASEDIR=/
+VENDOR=RENIX
+CLASSES=none
+RTP_LOGIN=root
+RTP_GROUP=bin
+RTP_BASE=opt/rtp
